@@ -1,5 +1,6 @@
 
 import Image from "next/image";
+import { IoIosArrowForward } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 import { TbPhoneFilled } from "react-icons/tb";
 import { TbClockHour4Filled } from "react-icons/tb";
@@ -14,9 +15,9 @@ export default function () {
         <div className="absolute top-[50%] left-[50%] flex justify-center flex-col items-center ">
           <h3 className="font-bold text-[1.5rem]">Contact</h3>
           <div className="flex items-center">
-            {/* <h3>Home</h3>
+            <h3>Home</h3>
             <IoIosArrowForward />
-            <h3>contact</h3> */}
+            <h3>contact</h3>
           </div>
         </div>
         {/* <div> */}

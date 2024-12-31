@@ -1,6 +1,7 @@
 
 
 import Image from "next/image";
+import { IoIosArrowForward } from "react-icons/io";
 
 export default function Cart() {
   return (
@@ -10,12 +11,11 @@ export default function Cart() {
         <div className="absolute top-[50%] left-[50%] flex justify-center flex-col items-center ">
           <h3 className="font-bold text-[1.5rem]"></h3>
           <div className="flex items-center">
-          
-            
+            <h3></h3>
+            <IoIosArrowForward />
+            <h3></h3>
           </div>
         </div>
-        {/* <div> */}
-        {/* </div> */}
       </div>
 
       <div className="">
