@@ -19,18 +19,29 @@ export default function Header() {
 
         <div className="navbtns">
         <ul className="head">
-          <Link href={"/"}>
-            <li>Home</li>
-          </Link>
-          <Link href={"/shop"}>
-            <li>Shop</li>
-          </Link>
-          <Link href={"/blog"}>
-            <li>Blog</li>
-          </Link>
-          <Link href={"/contact"}>
-            <li>Contact</li>
-          </Link>
+          <li>
+            <Link href="/">Home</Link>
+          </li>
+
+          <li>
+            <Link href="/Shop">Shop</Link>
+          </li>
+        
+
+
+          <li>
+            <Link href="/Blog">Blog</Link>
+          </li>
+        
+
+
+          <li className="li">
+            <Link href="/Contact">Contact</Link>
+          </li>
+        
+
+
+
         </ul>
         </div>
 
