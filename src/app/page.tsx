@@ -1,11 +1,11 @@
-import Header from "@/components/Header"
+// import Header from "@/components/Header"
 import Products from "@/components/Product"
 import Shop2ndlastbar from '@/components/Shop2ndlastbar'
 import Slides from "@/components/Slides"
-import Hero from "@/components/Hero"
+import Hero from "@/components/Home"
 import Contact from "@/components/Contact"
 import SubHero from "@/components/Subhero"
-import Footer from "@/components/Footers"
+// import Footer from "@/components/Footers"
 import Cart from "@/components/Cart"
 export default function Home(){
 
@@ -13,7 +13,6 @@ export default function Home(){
   return(
     <main>
 
-      <Header />
       <Products />
       <Shop2ndlastbar />
       <Hero />
@@ -21,7 +20,6 @@ export default function Home(){
       <Contact />
       <SubHero />
       <Cart />
-      <Footer />
       
 
       
